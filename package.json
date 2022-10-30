@@ -1,0 +1,27 @@
+{
+	"name": "eclipse-neon-theme",
+	"displayName": "Eclipse Neon Theme",
+	"description": "Color theme inspired by Eclipse IDE Neon.",
+	"version": "0.0.1",
+	"publisher": "pufferfish",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pufmat/eclipse-neon-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Eclipse Neon Dark",
+				"uiTheme": "vs-dark",
+				"path": "themes/eclipse_neon_dark.json"
+			}
+		]
+	}
+}
