@@ -2,8 +2,8 @@
 	"name": "Eclipse Neon Dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#252525",
-		"editor.foreground": "#FFFFFF"
+		"editor.background": "#292929",
+		"editor.foreground": "#D9E8F7"
 	},
 	"tokenColors": [
 		{
