@@ -46,7 +46,16 @@
 		},
 		{
 			"scope": [
-				"punctuation"
+				"punctuation.section.enum.begin.bracket",
+				"punctuation.section.enum.end.bracket",
+				"punctuation.section.class.begin.bracket",
+				"punctuation.section.class.end.bracket",
+				"punctuation.section.method.begin.bracket",
+				"punctuation.section.method.end.bracket",
+				"punctuation.definition.parameters.begin.bracket",
+				"punctuation.definition.parameters.end.bracket",
+				"punctuation.definition.annotation-arguments.begin.bracket",
+				"punctuation.definition.annotation-arguments.end.bracket"
 			],
 			"settings": {
 				"foreground": "#F9FAF4",
@@ -121,7 +130,10 @@
 		{
 			"scope": [
 				"keyword.operator",
-				"entity.name.function.operator"
+				"punctuation.bracket.angle",
+				"entity.name.function.operator",
+				"punctuation.terminator",
+				"punctuation.separator"
 			],
 			"settings": {
 				"foreground": "#E6E6FA",
